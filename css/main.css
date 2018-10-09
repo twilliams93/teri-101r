@@ -1,0 +1,256 @@
+body{
+	font: 15px/1.5 'Open Sans', 'Source Sans Pro', 'sans-serif';
+	margin:0;
+	padding:0;
+	background-color: #f2f2f2;
+}
+
+/** global **/
+.container{
+	width:80%;
+	margin:auto;
+	overflow:hidden;
+}
+
+ ul{
+	margin:0;
+	padding:0;
+}
+
+.button{
+	background:#fbaf11;
+	border:0;
+	color:#3c5471;
+	height:38px;
+	padding-left:20px;
+	padding-right:20px;
+}
+
+.dark{
+	padding:15px;
+	background:#fbaf11;
+	color:#3c5471;
+	margin-top:10px;
+	margin-bottom:10px;
+}
+
+/** Header **/
+header{
+	background:#3c5471;
+	color:#fbaf11;
+	padding-top:30px;
+	min-height:70px;
+	border-bottom:#fbaf11 3px solid;
+}
+
+header a{
+	color: #ffffff;
+	font-size:16px;
+	text-decoration: none;
+	text-transform: uppercase;
+}
+
+header li{
+	float:left;
+	display:inline;
+	padding: 0 20px 0 20px;
+}
+
+header #branding{
+	float: left;
+}
+
+header #branding h1{
+	margin:0;
+}
+
+header nav{
+	float: right;
+	margin-top:10px;
+}
+
+header .highlight{
+	color:#ffffff;
+	font-weight:bold;
+}
+
+header .current a{
+	color:#fbaf11;
+	font-weight:bold;
+}
+
+header a:hover{
+	color:#fbaf11;
+	font-weight:bold;
+}
+
+/**showcase**/
+#showcase{
+	background:url('../img/showcase.png') no-repeat 0 -500px;
+	color: #3c5471;
+	min-height:500px;
+	text-align:center;
+}
+
+#showcase h2{
+	margin-top:100px;
+	font-size:55px;
+	margin-bottom:10px;
+}
+
+#showcase p{
+	font-size:24px;
+}
+
+/**email**/
+
+#email{
+	background: #3c5471;
+	padding:15px;
+}
+
+#email h2{
+	color:#ffffff;
+	float: left;
+}
+
+#email form{
+	float:right;
+	margin-top:15px;
+}
+
+#email input[type="email"]{
+	padding:4px;
+	height:25px;
+	width:250px;
+}
+
+/**boxes**/
+
+
+#boxes{
+	margin-top:20px;
+}
+
+#boxes .box{
+	float:left;
+	padding:10px;
+	text-align:center;
+	width:30%;
+}
+#boxes .box img{
+	width:70px;
+}
+
+/** sidebar **/
+
+aside#sidebar{
+	float: right;
+	width:30%;
+	margin-top:10px;
+}
+
+aside h2{
+	color:#3c5471;
+	font-size: 24px;
+}
+
+/** main-col**/
+
+article#main-col{
+	float:left;
+	width:65%;
+}
+
+article#main-col h2{
+	color:#3c5471;
+}
+
+article#main-col p{
+	color:#3c5471;
+}
+/** about **/
+
+
+#about h3{
+	color: #3c5471;
+	font-family: 'Open Sans', sans-serif;
+	font-size:24px;
+	font-weight: 600;
+	text-align: center;
+}
+#about p{
+	color:#3c5471;
+	font-family: 'Source Sans Pro', sans-serif;
+	font-size: 18px;
+	text-align: center;
+}
+
+#contact .full-width{
+	width:80%;
+	margin:auto;
+	overflow:hidden;
+}
+
+#contact .half-width{
+	width:40%;
+	margin:auto;
+	overflow:hidden;
+	text-align:center;
+}
+
+#contact h2{
+	color:#3c5471;
+	font-size:24px;
+}
+
+#contact ul{
+	list-style:none;
+}
+
+#contact ul li{
+	display:inline;
+}
+
+footer{
+	background:#3c5471;
+	color:#fbaf11;
+	margin-top:50px;
+	padding:20px;
+	text-align:center;
+}
+
+/** media queries**/
+
+@media(max-width: 768px){
+	header #branding,
+	header nav,
+	header nav li
+	#email h1,
+	#email form,
+	#boxes .box,
+	article#main-col,
+	aside#sidebar{
+		float:none;
+		text-align:center;
+		width:100%;
+}
+
+header{
+	padding-bottom:20px;
+}
+
+#showcase h1{
+	margin-top:40px;
+}
+
+#email button{
+	display:block;
+	width:100%;
+}
+#email form input[type="email"]{
+	width:100%;
+	margin-bottom:5px;
+}
+
+
